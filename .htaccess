@@ -1,0 +1,10 @@
+
+## Wappler routing
+RewriteEngine On
+<IfModule mod_negotiation.c>
+    Options -MultiViews
+</IfModule>
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_METHOD} GET
+RewriteRule ^/?api/users(?:/)?$ dmxConnect/api/users/list.php [QSA,NC,L]
+## End Wappler routing

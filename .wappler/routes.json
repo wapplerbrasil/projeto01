@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "path": "/api/users",
+      "url": "/dmxConnect/api/users/list.php",
+      "method": "get"
+    }
+  ]
+}

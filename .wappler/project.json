@@ -1,0 +1,33 @@
+{
+  "projectName": "web01",
+  "targets": [
+    {
+      "webServerPort": 8100,
+      "webServerLang": "PHP",
+      "PHPVersion": "7.3.x",
+      "databaseType": "mysql",
+      "databasePort": 9906,
+      "mySQLVersion": "8.0.x",
+      "mySQL_rootPassword": "gthQgEvD",
+      "mySQL_databaseName": "web01",
+      "mySQL_username": "db_user",
+      "mySQL_password": "eogjvVtB",
+      "targetType": "docker",
+      "webServer": "apache",
+      "name": "docker",
+      "remoteURL": "http://localhost:8100"
+    }
+  ],
+  "frameworks": [],
+  "routingHandler": "apache",
+  "designFramework": "bootstrap4",
+  "projectLinksType": "site",
+  "hostingType": "docker",
+  "projectServerModel": "PHP",
+  "useRouting": true,
+  "styleFile": "/assets/css/style.css",
+  "assetsFolder": "/assets",
+  "userUploadsFolder": "/assets/uploads",
+  "activeTarget": "docker",
+  "folder": "4fc82575-79c7-4f57-b422-ff27011228f8"
+}
